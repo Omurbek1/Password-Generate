@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="p-header">
+        <input type="text" id="password" />
+        <button class="copy" id="copy">Copy</button>
+      </div>
+      <div class="p-body">
+        <div class="form-control">
+          <label for=" p-length">Password Length</label>
+          <input
+            type="number"
+            name=""
+            id="p-length"
+            value="12"
+            min="8"
+            max="30"
+          />
+        </div>
+        <div class="form-control">
+          <label for=" p-uppercase">Include UpperCase</label>
+          <input
+            type="checkbox"
+            name=""
+            id="p-uppercase"
+            checked
+            value="12"
+            min="8"
+            max="30"
+          />
+        </div>
+        <div class="form-control">
+          <label for=" p-lowercase">Include LowerCase</label>
+          <input
+            type="checkbox"
+            name=""
+            checked
+            id="p-lowercase"
+            value="12"
+
+            min="8"
+            max="30"
+          />
+        </div>
+        <div class="form-control">
+          <label for=" p-number">Include Numbers</label>
+          <input
+            type="checkbox"
+            name=""
+            id="p-number"
+            value="12"
+            min="8"
+            max="30"
+            checked
+          />
+        </div>
+        <div class="form-control">
+          <label for=" p-symbol">Include Symbol</label>
+          <input
+            type="checkbox"
+            name=""
+            id="p-symbol"
+            value="12"
+            min="8"
+            checked
+            max="30"
+          />
+        </div>
+        <button id="submit">Generate Password</button>
+      </div>
+    </div>
+    <script src="/sscript.js"></script>
+  </body>
+</html>
